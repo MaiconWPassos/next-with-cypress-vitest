@@ -1,27 +1,49 @@
-# Vitest
 
-This example shows how to use [Vitest](https://github.com/vitest-dev/vitest) with Next.js.
+# Nextjs With Cypress and Vitest
 
-## Deploy your own
 
-Deploy the example using [Vercel](https://vercel.com/) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-vitest)
+This project aims to serve as a base for a tdd project using vite and cypress
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-vitest&project-name=with-vitest&repository-name=with-vitest)
 
-## How to use
+#### Docs
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+- [Vitest](https://github.com/vitest-dev/vitest)
+- [Nextjs](https://nextjs.org/docs/deployment)
+- [Cypress](https://www.cypress.io/)
 
+
+## Install
+
+
+#### clone repository
 ```bash
-npx create-next-app --example with-vitest with-vitest-app
+  git clone https://github.com/MaiconWPassos/next-with-cypress-vitest.git
 ```
 
+#### install dependences
 ```bash
-yarn create next-app --example with-vitest with-vitest-app
+  cd next-with-cypress-vitest
+  yarn intall or npm install
 ```
 
+
+## Run application
 ```bash
-pnpm create next-app --example with-vitest with-vitest-app
+  yarn dev
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+## Run Tests
+
+#### unity tests (Vitest)
+```bash
+  yarn test
+```
+
+#### e2e tests (Cypress)
+```bash
+  yarn test:e2e
+```
+## Authors
+
+- [@maiconwpassos](https://www.github.com/maiconwpassos)
+
